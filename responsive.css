@@ -583,7 +583,7 @@ visibility: collapse;
    
    .footer
    {
-   poistion:relative;
+   overflow:hidden;
    }
 
   .burger
