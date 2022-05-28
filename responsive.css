@@ -1,5 +1,11 @@
 
 
+
+.container-contact
+{
+    padding-bottom:1000px;
+}
+
 /* #################Net~Hub Max & Large Devices######################## */
 @media only screen and (max-width:1100px)
 {
@@ -83,6 +89,12 @@
    margin-top:100px;
     margin-bottom:110px;
    }
+
+   .container-contact
+{
+    padding-bottom:1000px;
+}
+
    .burger
 {
    display: block;
@@ -129,7 +141,10 @@ visibility: collapse;
          padding: 40px;
          height: 145vh;
          margin-bottom: -221px;
-     
+         
+             padding-bottom:1100px;
+         
+         
         
  
    }
@@ -400,7 +415,8 @@ visibility: collapse;
  
         padding-top:120px;
         height:100vh;
-        margin-bottom:-280px;
+        margin-bottom:-100px;
+        padding-bottom:1000px;
     
        
  
@@ -507,7 +523,7 @@ visibility: collapse;
    .background
    {
      width:600px;
-    
+     overflow:hidden;
    }
  
  
@@ -575,16 +591,11 @@ visibility: collapse;
  
         padding-top:80px;
         height:130vh;
-        margin-bottom:-280px;
+        margin-bottom:-200px;
     
        
  
   }
-   
-   .footer
-   {
-   overflow:hidden;
-   }
 
   .burger
    {
@@ -718,7 +729,7 @@ visibility: collapse;
  
         padding-top:80px;
         height:115vh;
-        margin-bottom:-280px;
+        margin-bottom:-200px;
       
 
     
@@ -856,8 +867,8 @@ visibility: collapse;
      {
     
       padding-top:46px;
-      height:145vh;
-      margin-bottom:-280px;
+      height:155vh;
+      padding-bottom:1200px;
    
     
      }
@@ -990,7 +1001,7 @@ visibility: collapse;
     
       padding-top:46px;
       height:135vh;
-      margin-bottom:-280px;
+      margin-bottom:-200px;
 
 
        
@@ -1141,7 +1152,7 @@ visibility: collapse;
     
       padding-top:46px;
       height:145vh;
-      margin-bottom:-280px;
+      margin-bottom:-200px;
 
 
        
