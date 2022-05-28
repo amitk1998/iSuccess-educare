@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iSuccess-educare for Online Education</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <div class="main">
+    <nav class="navbar background resp-ht-nav">
+      <ul class="nav-list resp-vis-class">
+        <div class="logo"  id="home"><img src="img/logo.png" id="#" alt="logo" /></div>
+        <!-- li{<a href="#">Home</a>}*5 -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+        <div class="right-nav resp-vis-class">
+            <input type="search-text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+            
+        </div>
+        
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+    </nav>
+
+
+<div class="container-contact" id="contact"><p class="h2con">Contact Us</p>
+  <div class="forms-con">
+  <form action="/">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" class="fc" name="firstname" placeholder="Your name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" class="fc" name="lastname" placeholder="Your last name.." required>
+
+    <label for="email">Your e-mail</label>
+    <input type="text" id="email" class="fc" name="email" placeholder="Enter your e-mail.." required>
+
+    <label for="country">Country</label>
+    <select id="country" class="fc" name="country">
+      <option value="None">Select</option>
+      <option value="india">India</option>
+      <option value="russia">Rusia</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" class="fc" name="subject" placeholder="Write your concern.." style="height:200px"></textarea>
+
+    <input type="submit"  id="sub-mit" class="fc" value="Submit">
+    
+  </form>
+</div>
+</div>
+
+<div class="footer">
+  <p class="footer-text">Copyright &copy; 2022-2023 - www.futureedu.com - All right reserved</p>
+</div>
+</div>
+<script src="script.js"></script>
+
+</body>
+
+</html>

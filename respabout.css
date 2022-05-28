@@ -1,0 +1,21 @@
+
+.first-section
+{
+margin-bottom:-200px;
+height:200%;
+padding-bottom:250px;
+}
+
+@media only screen and (max-width:280px)
+{
+    
+    .first-section
+{
+    margin-top:-150px;
+    padding-bottom:100px;
+
+}
+
+
+}
+
