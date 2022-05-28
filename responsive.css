@@ -580,6 +580,11 @@ visibility: collapse;
        
  
   }
+   
+   .footer
+   {
+   poistion:relative;
+   }
 
   .burger
    {
